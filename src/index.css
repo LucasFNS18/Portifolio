@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('/fonts/MinhaFonte-Regular.woff2') format('woff2'),
+         url('/fonts/MinhaFonte-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'MinhaFonteBold';
+    src: url('/fonts/MinhaFonte-Bold.woff2') format('woff2'),
+         url('/fonts/MinhaFonte-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  /* Adicione outras variações da fonte aqui */
+
+  /* Custom styles for the skills section */
+.container {
+     max-width: 1200px;
+   }
+   
+   .skills {
+     background-color: #61DAFB;
+     border-radius: 30px;
+     padding: 30px;
+   }
+   
+   .skills h2, .skills h3 {
+     color: white;
+   }
+   
+   .skills .text-sm {
+     color: white;
+   }
+   
+   .skills .bg-blue-500 {
+     background-color: #61DAFB;
+   }
+   
+   .skills .bg-blue-500:hover {
+     background-color: #61DAFB;
+   }
+   
