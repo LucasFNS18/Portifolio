@@ -17,6 +17,7 @@ module.exports = {
         customAzulhover:'#005E78',
         customAzulButton:'#61DAFB',
         customAzulfundo:'#1A9FC4',
+        customOrange:'#FDE0C6',
 
       },
       borderRadius:{

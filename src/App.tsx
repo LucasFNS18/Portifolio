@@ -9,7 +9,8 @@ import Logos from './components/Logos';
 import AboutMe from './components/Aboutme';
 import Skills from './components/Skills';
 import Experiencia from './components/Experiencia';
-
+import Projeto from './components/Projects';
+import Chatbot from './components/Chatbot';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +24,8 @@ function App() {
    <AboutMe/>
    <Skills />
    <Experiencia />
+   <Projeto/>
+   <Chatbot/>
    
 
     
