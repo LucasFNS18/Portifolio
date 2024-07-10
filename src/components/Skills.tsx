@@ -11,19 +11,19 @@ const Skills: React.FC = () => {
             <div className="mt-6">
               <h4 className="text-xl font-semibold">Frontend</h4>
               <div className="flex flex-wrap gap-2 mt-2">
-                <span className="bg-blue-500 text-white rounded-full py-1 px-3 text-sm">HTML</span>
-                <span className="bg-blue-500 text-white rounded-full py-1 px-3 text-sm">CSS</span>
-                <span className="bg-blue-500 text-white rounded-full py-1 px-3 text-sm">JS</span>
-                <span className="bg-blue-500 text-white rounded-full py-1 px-3 text-sm">React</span>
+                <span className="bg-customSpam text-white rounded-full py-1 px-3 text-sm">HTML</span>
+                <span className="bg-customSpam text-white rounded-full py-1 px-3 text-sm">CSS</span>
+                <span className="bg-customSpam text-white rounded-full py-1 px-3 text-sm">JS</span>
+                <span className="bg-customSpam text-white rounded-full py-1 px-3 text-sm">React</span>
               </div>
             </div>
             <div className="mt-4">
               <h4 className="text-xl font-semibold">Backend</h4>
               <div className="flex flex-wrap gap-2 mt-2">
-                <span className="bg-blue-500 text-white rounded-full py-1 px-3 text-sm">Node JS</span>
-                <span className="bg-blue-500 text-white rounded-full py-1 px-3 text-sm">Next JS</span>
-                <span className="bg-blue-500 text-white rounded-full py-1 px-3 text-sm">MongoDB</span>
-                <span className="bg-blue-500 text-white rounded-full py-1 px-3 text-sm">Microsoft Azure</span>
+                <span className="bg-customSpam text-white rounded-full py-1 px-3 text-sm">Node JS</span>
+                <span className="bg-customSpam text-white rounded-full py-1 px-3 text-sm">Next JS</span>
+                <span className="bg-customSpam text-white rounded-full py-1 px-3 text-sm">MongoDB</span>
+                <span className="bg-customSpam text-white rounded-full py-1 px-3 text-sm">Microsoft Azure</span>
               </div>
             </div>
           </div>

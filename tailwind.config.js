@@ -10,21 +10,19 @@ module.exports = {
         Fonte: ['MinhaFonte', 'sans-serif'],
         FonteBold: ['MinhaFonteBold', 'sans-serif'],
       },
-      colors:{
+      colors: {
         customLaranja: '#FF7A00',
-        customLaranjahover:'#B25500',
-        customAzul:'#1A9FC4',
-        customAzulhover:'#005E78',
-        customAzulButton:'#61DAFB',
-        customAzulfundo:'#1A9FC4',
-        customOrange:'#FDE0C6',
-
+        customLaranjahover: '#B25500',
+        customAzul: '#1A9FC4',
+        customAzulhover: '#005E78',
+        customAzulButton: '#61DAFB',
+        customAzulfundo: '#1A9FC4',
+        customOrange: '#FDE0C6',
+        customSpam: '#61DAFB',
       },
-      borderRadius:{
+      borderRadius: {
         'custom': '12px',
       },
-      
-
     },
   },
   plugins: [],
