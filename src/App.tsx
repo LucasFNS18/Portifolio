@@ -8,32 +8,34 @@ import Skills from './components/Skills';
 import Experiencia from './components/Experiencia';
 import Projeto from './components/Projects';
 import Chatbot from './components/Chatbot';
+import LoadingSpinner from './components/LoadingSpinner'
+
 
 function App() {
-  const [count, setCount] = useState(0);
-  const [isInitialLoad, setIsInitialLoad] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    if (isInitialLoad) {
-      // Bloquear a rolagem automática no carregamento inicial
-      setIsInitialLoad(false);
-    } else {
-      // Código para rolar ou realizar outras ações após o carregamento inicial
-    }
-  }, [isInitialLoad]);
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 4000); // Tempo de carregamento de 2 segundos
+  }, []);
+
+  if (isLoading) {
+    return <LoadingSpinner />;
+  }
+
+  
 
   return (
     <div>
       <Navbar />
-      
       <Container />
       <Icon />
       <AboutMe />
       <Skills />
       <Experiencia />
       <Projeto />
-      <Chatbot/>
-      
+      <Chatbot />
     </div>
   );
 }
