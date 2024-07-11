@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from 'framer-motion';
-import Curriculo from '../assets/Image/Lucas Francisco  Currículo.pdf';
-import Myimage from "../assets/Image/Lucas_principal.png";
+import Curriculo from '../assets/Image/Pdf/Curriculo.pdf';
+import Myimage from "../assets/Image/Lucas-secundario-Imagem.png";
 
 const About: React.FC = () => {
   return (

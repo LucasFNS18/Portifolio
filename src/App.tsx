@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Container from './components/Container';
-import Logos from './components/Logos';
+import Icon from './components/Icon';
 import AboutMe from './components/Aboutme';
 import Skills from './components/Skills';
 import Experiencia from './components/Experiencia';
@@ -27,7 +27,7 @@ function App() {
       <Navbar />
       
       <Container />
-      <Logos />
+      <Icon />
       <AboutMe />
       <Skills />
       <Experiencia />
