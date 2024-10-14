@@ -17,7 +17,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 4000); // Tempo de carregamento de 2 segundos
+    }, 5000); // Tempo de carregamento de 4 segundos = 4000
   }, []);
 
   if (isLoading) {
